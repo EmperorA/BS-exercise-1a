@@ -1,0 +1,77 @@
+:root {
+  padding: 1rem;
+}
+body {
+  background-color: black;
+}
+
+.user {
+  border-radius: 35%/ 100%;
+}
+.austine-photo {
+  border-radius: 50%;
+}
+
+/* top album section  */
+.album-nav {
+  justify-content: space-between;
+}
+#albumBtn {
+  border-radius: 30%/ 100%;
+  background-color: black;
+  border-style: none;
+  font-size: 0.7rem;
+}
+.album-card {
+  padding-top: 1rem;
+}
+
+.card {
+  background-color: rgb(16, 22, 28);
+  padding: 0.7rem;
+}
+.card-img-top {
+  width: 10rem;
+  height: 10rem;
+}
+.top-album-info {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.6rem;
+}
+.album-title,
+.album-artist {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* favourite album review section  */
+.fav-album-review-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.fav-album-review-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
+.tracklist th,
+.tracklist td,
+.hall-of-shame th,
+.hall-of-shame td {
+  padding: 0.5rem;
+}
+
+/* image tapestry  */
+.image-tapestry-div {
+  border-radius: 10% 2%;
+}
+.image-tapestry {
+  height: 10rem;
+}
+
+/* JS button  */
+.hsBtn {
+  color: rgb(41, 39, 39);
+  background-color: #000;
+}
